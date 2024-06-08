@@ -1,0 +1,21 @@
+name = "d1-bun-hono-drizzle"
+compatibility_date = "2023-12-01"
+
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "d1-bun-hono-drizzle"
+database_id = "d8a46af0-977d-41bd-9e9b-277d6a356b66"
+
+[vars]
+MY_VAR = "my-variable"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [ai]
+# binding = "AI"
